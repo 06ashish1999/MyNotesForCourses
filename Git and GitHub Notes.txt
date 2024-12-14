@@ -14,4 +14,9 @@ GitHub is an online platform where and which we push our whole git folder to the
 ========================================== Git Commands
 
 1. To initialize git in the project folder : git init {There will be a file created in the project folder named '.git', It will store or track all the changes happened in that folder. To see them in git bash type 'ls -a'}
-2. But how the people who were working on the same folder knows that something is changed by ashish or forget about someone how can even I track my project folder that what all changes that I made which are untracked (when I say untracked in the sense I didn't add them to the '.git' folder.)
+2. But how the people who were working on the same folder knows that something is changed by ashish or forget about someone how can even I track my project folder that what all changes that I made which are untracked (when I say untracked in the sense I didn't add them to the '.git' folder.). To see this type 'git status
+
+'
+3. Ok then now I created a file here in project folder. And now you are about to say that hey git just add it to .git folder when ever I say. Ok Now git will say that ok then please enter command 'git add .'. Here '.' in the sense I am telling git to pick all the files. You can replace them with file names that you want to add.
+4. Now the time has come and I want to say git that ok git I revised everything and I am commited to my word to you to say that please save it to '.git' folder. To do that enter 'git commit -m "something to say"'. Now you make your first check point in your product development life cycle.
+5. 
