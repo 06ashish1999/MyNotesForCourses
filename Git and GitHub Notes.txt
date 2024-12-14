@@ -1,0 +1,17 @@
+========================================== Git and GitHub 
+
+Git:- 
+
+Tool used to collaborate with each other. Have you ever thought in your life to go back to childhood days just because you were not able to tolerate the responsibilities.
+The same way happens with developers as well when ever you want to implement a new feature and by some reason it was breaking the entire code. Rather than creating new project from scratch 
+or deleting the written lines by line. If you have an option to go back just in snap that would be useful. Git provides the same feature to go back to the last check point. When I say last check point its your wish you can start coding at whatever check point you wish to do so.
+
+GitHub:- 
+
+GitHub is an online platform where and which we push our whole git folder to the remote repository. When I say remote repository consider it as big folder existed somewhere else on earth and you are storing your code there. So that whenever you require you can pull whatever version of the code that is required.
+
+
+========================================== Git Commands
+
+1. To initialize git in the project folder : git init {There will be a file created in the project folder named '.git', It will store or track all the changes happened in that folder. To see them in git bash type 'ls -a'}
+2. But how the people who were working on the same folder knows that something is changed by ashish or forget about someone how can even I track my project folder that what all changes that I made which are untracked (when I say untracked in the sense I didn't add them to the '.git' folder.)
