@@ -20,3 +20,4 @@ GitHub is an online platform where and which we push our whole git folder to the
 3. Ok then now I created a file here in project folder. And now you are about to say that hey git just add it to .git folder when ever I say. Ok Now git will say that ok then please enter command 'git add .'. Here '.' in the sense I am telling git to pick all the files. You can replace them with file names that you want to add.
 4. Now the time has come and I want to say git that ok git I revised everything and I am commited to my word to you to say that please save it to '.git' folder. To do that enter 'git commit -m "something to say"'. Now you make your first check point in your product development life cycle.
 5. Now my manager came to me and asked what all commits I made till now. To know that press 'git log'.
+6. Now I added new file named 'names.txt' and I suddenly deleted it. But I want it back. Then use 'git reset ___Id___'
