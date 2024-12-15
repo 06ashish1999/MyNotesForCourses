@@ -49,4 +49,6 @@ Go to GitHub create a repository where it will show remote repository URL. Copy 
 
 7. Ok then you work completed on main code and as well as on the branch so you want to make your code public (in the sense whenever your code is downloaded by others it will contains all the features avaialble) to make that 'git merge branch-name'
 
-8. 
+8. To know what is the GitHub repository I added to my local git. Type 'git remote -v' when ever you type this command it will show the URL for fetch and push request.
+
+9. 
