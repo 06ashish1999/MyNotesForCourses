@@ -55,4 +55,6 @@ Go to GitHub create a repository where it will show remote repository URL. Copy 
 
 10. Now the project is copied to your GitHub account copy the project URL and paste if you want to download the code. Then go to the destination folder then type 'git clone forked-project-url'
 
-11. 
+11. Ok what you can do is copy the URL of the original project and you can add it to the remote urls 'git remote add upstream original-project-url'
+
+12. 
