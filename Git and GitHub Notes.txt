@@ -14,22 +14,39 @@ GitHub is an online platform where and which we push our whole git folder to the
 ========================================== Git Commands
 
 1. To initialize git in the project folder : git init {There will be a file created in the project folder named '.git', It will store or track all the changes happened in that folder. To see them in git bash type 'ls -a'}
-2. But how the people who were working on the same folder knows that something is changed by ashish or forget about someone how can even I track my project folder that what all changes that I made which are untracked (when I say untracked in the sense I didn't add them to the '.git' folder.). To see this type 'git status
 
-'
+2. But how the people who were working on the same folder knows that something is changed by ashish or forget about someone how can even I track my project folder that what all changes that I made which are untracked (when I say untracked in the sense I didn't add them to the '.git' folder.). To see this type 'git status'
+
 3. Ok then now I created a file here in project folder. And now you are about to say that hey git just add it to .git folder when ever I say. Ok Now git will say that ok then please enter command 'git add .'. Here '.' in the sense I am telling git to pick all the files. You can replace them with file names that you want to add.
+
 4. Now the time has come and I want to say git that ok git I revised everything and I am commited to my word to you to say that please save it to '.git' folder. To do that enter 'git commit -m "something to say"'. Now you make your first check point in your product development life cycle.
+
 5. Now my manager came to me and asked what all commits I made till now. To know that press 'git log'.
+
 6. Now I added new file named 'names.txt' and I suddenly deleted it. But I want it back. Then use 'git reset ___Id___'
+
 7. Let say there is a dependency where I am about to commit a feature but suddenly some idea which is better than this feature comes to mind. So rather than commiting this feature or deleting this feature what we can do is I will git that ok git I am trying new but I don't want to lose the current existing feature so store it somewhere else other than .git folder. Ok then type 'git stash'.
+
 8. Ok then I worked on the new feature and it seems like not working so I need pull the stashed work to the staging area so what I will do is like 'git stash pop'. SO whenever I say this command the git will take out the stashed feature and add it to the staging area form where I can commit it.
+
 9. So what if the new feature works and want to clear the stashed code? Then type 'git stash clear'. It clears current existing code in the stashed area.
-10. 
 
 
 ======================================= Working with remote repository (GitHub)
 
 1. Ok then till now we have learn about git like saving the checkpoints (continuous progess) at repository. When I say repository it is something limited to my laptop it self. Suppose if my manager want to check my code then how it is possible. The only way is he must to take my laptop open the code and then check it. But what if I move all my check points to the remote folder which I told earlier and then what if I give access to my code to everyone? anycone can see my code and then can make changes right but how to do that.
 Go to GitHub create a repository where it will show remote repository URL. Copy that URL and type the command here 'git remote add origin https://github.com/06ashish1999/MyNotesForCourses.git'. Now your .git folder will be moved to remote repo.
+
 2. It's not over here we just added the remote repository to local. To push the existing checkpoints to remote repo type 'git push origin master'.
+
 3.Now you may wonder what does it meant by 'origin' in command. It' simply a name given to my repository URL. If you have a look at the url 'git remote add origin URL'. origin is the name given to the URL just like the contact names for phone numbers. So we can remember it easily.
+
+4. Branching - Just imagine You are working on the main code and your friend is working on feature. So if both of you commit your code at a time. That would be tough for everyone to track. What if I create a separate branch and ask my friend to commit his feature code on to that branch so that every feature can track separately. for that type 'git branch branch-name'
+
+5. Whenever you create a branch there is something called as 'head'. This head will move to the newely created branch and what ever commits you do it will start commit on that branch.
+
+6. If you want to move your head to main branch then type 'git checkout branch-name'.
+
+7. Ok then you work completed on main code and as well as on the branch so you want to make your code public (in the sense whenever your code is downloaded by others it will contains all the features avaialble) to make that 'git merge branch-name'
+
+8. 
