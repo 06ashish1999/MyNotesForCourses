@@ -2,7 +2,7 @@
 
 Git:- 
 
-Tool used to collaborate with each other. Have you ever thought in your life to go back to childhood days just because you were not able to tolerate the responsibilities.
+{Tool used to collaborate with each other}. Have you ever thought in your life to go back to childhood days just because you were not able to tolerate the responsibilities.
 The same way happens with developers as well when ever you want to implement a new feature and by some reason it was breaking the entire code. Rather than creating new project from scratch 
 or deleting the written lines by line. If you have an option to go back just in snap that would be useful. Git provides the same feature to go back to the last check point. When I say last check point its your wish you can start coding at whatever check point you wish to do so.
 
@@ -21,3 +21,7 @@ GitHub is an online platform where and which we push our whole git folder to the
 4. Now the time has come and I want to say git that ok git I revised everything and I am commited to my word to you to say that please save it to '.git' folder. To do that enter 'git commit -m "something to say"'. Now you make your first check point in your product development life cycle.
 5. Now my manager came to me and asked what all commits I made till now. To know that press 'git log'.
 6. Now I added new file named 'names.txt' and I suddenly deleted it. But I want it back. Then use 'git reset ___Id___'
+7. Let say there is a dependency where I am about to commit a feature but suddenly some idea which is better than this feature comes to mind. So rather than commiting this feature or deleting this feature what we can do is I will git that ok git I am trying new but I don't want to lose the current existing feature so store it somewhere else other than .git folder. Ok then type 'git stash'.
+8. Ok then I worked on the new feature and it seems like not working so I need pull the stashed work to the staging area so what I will do is like 'git stash pop'. SO whenever I say this command the git will take out the stashed feature and add it to the staging area form where I can commit it.
+9. So what if the new feature works and want to clear the stashed code? Then type 'git stash clear'. It clears current existing code in the stashed area.
+10. 
