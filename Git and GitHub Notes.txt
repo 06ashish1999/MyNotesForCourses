@@ -63,4 +63,6 @@ Go to GitHub create a repository where it will show remote repository URL. Copy 
 
 2. So as a developer whatever URL you copied is called Main URL. But if you look at it Manager forked (copied) the project from main code base. The URL of that project is called 'Upstream' URL. You can add it to the project by typing 'git remote add upstream upstream-url'.
 
-3. 
+3. Ok then I cloned the project from Manager GitHub URL. And I created my own branch named 'git branch ashish'. Moving header to ashish so that all the commits I made will be commited to ashish branch 'git checkout ashish'. Now commit your code. The next task is you need to merge the code with the Main project URL. To do so you need to have a 'Pull request' to the main branch.
+
+4. 
