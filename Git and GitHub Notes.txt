@@ -76,3 +76,4 @@ Go to GitHub create a repository where it will show remote repository URL. Copy 
 8. All the above fetch statements can be achieved by running 'git pull upstream main' and 'git push origin main'.
 
 9. Squashing commits :- If you are working on multiple commits and then if you want to merge it into one single commits.
+'git rebase -i '. Then it will show all the commits which will have a keyword pick and replace the word pick with 's' which is known as squash.
