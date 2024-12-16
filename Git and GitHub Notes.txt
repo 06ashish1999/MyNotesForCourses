@@ -67,4 +67,4 @@ Go to GitHub create a repository where it will show remote repository URL. Copy 
 
 4. So whenever you commit and push the code to ashish branch. It will automatically creates a pull request to the main branch of the code. But you have to make sure that one branch - one pull request. whatever changes you made will be commited to one branch and it will be considered as one pull request only.
 
-5. 
+5. Think in this way. You are working for a company called 'Ashcode'. And your manager name is 'Ashish'. So you joined as developer. Then Ashish forked the project to his branch. And by using Ashish URL you cloned the project to your local desktop. You work on the code made changes, implemented features and then created a branch by typing 'git branch employee'. Now you push the code to 'git push origin employee'. This will commit to your manager code. Now manager will compare the code and will create a pull request to the 'Ashcode' repository. 
