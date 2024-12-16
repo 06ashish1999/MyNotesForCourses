@@ -73,4 +73,6 @@ Go to GitHub create a repository where it will show remote repository URL. Copy 
 
 7. git fetch --all --prune. So now ashish branch is outdated because all the commits are merged to the main branch. To make sure manager (ashish) code base is updated with the main branch you need to fetch the recent commits by typing 'git fetch --all --prune'. Now your commit history should match the commit history of main branch 'git reset --hard upstream/main'. Then push it to manager's master branch. 'git push origin master'
 
-8. 
+8. All the above fetch statements can be achieved by running 'git pull upstream main' and 'git push origin main'.
+
+9. Squashing commits :- If you are working on multiple commits and then if you want to merge it into one single commits.
