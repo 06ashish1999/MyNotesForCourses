@@ -70,3 +70,7 @@ Go to GitHub create a repository where it will show remote repository URL. Copy 
 5. Think in this way. You are working for a company called 'Ashcode'. And your manager name is 'Ashish'. So you joined as developer. Then Ashish forked the project to his branch. And by using Ashish URL you cloned the project to your local desktop. You work on the code made changes, implemented features and then created a branch by typing 'git branch employee'. Now you push the code to 'git push origin employee'. This will commit to your manager code. Now manager will compare the code and will create a pull request to the 'Ashcode' repository. 
 
 6. Ok Ashcode is still reviewing changes and if you want to delete one file from the recent commit. You can reset the git and stash it. now you have force push the code. 'git push origin ashish -f'.
+
+7. git fetch --all --prune. So now ashish branch is outdated because all the commits are merged to the main branch. To make sure manager (ashish) code base is updated with the main branch you need to fetch the recent commits by typing 'git fetch --all --prune'. Now your commit history should match the commit history of main branch 'git reset --hard upstream/main'. Then push it to manager's master branch. 'git push origin master'
+
+8. 
