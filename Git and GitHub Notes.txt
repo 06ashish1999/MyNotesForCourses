@@ -57,4 +57,10 @@ Go to GitHub create a repository where it will show remote repository URL. Copy 
 
 11. Ok what you can do is copy the URL of the original project and you can add it to the remote urls 'git remote add upstream original-project-url'
 
-12. 
+===================================== Working with existing projects
+
+1. When ever you join in a company you will be given to work on a project and after making changes to the code. What if we commit the changes to the main project branches. It was not accepted. What my manager can do is he will 'fork' the main project in the sense whenever you fork the project it will copy the code from original code repo. So now you can clone from your manager github profile to watch the changes. To do so type 'git clone manager-project-forked-URL'.
+
+2. So as a developer whatever URL you copied is called Main URL. But if you look at it Manager forked (copied) the project from main code base. The URL of that project is called 'Upstream' URL. You can add it to the project by typing 'git remote add upstream upstream-url'.
+
+3. 
