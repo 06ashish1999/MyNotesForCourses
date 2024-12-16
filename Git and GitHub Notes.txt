@@ -65,4 +65,6 @@ Go to GitHub create a repository where it will show remote repository URL. Copy 
 
 3. Ok then I cloned the project from Manager GitHub URL. And I created my own branch named 'git branch ashish'. Moving header to ashish so that all the commits I made will be commited to ashish branch 'git checkout ashish'. Now commit your code. The next task is you need to merge the code with the Main project URL. To do so you need to have a 'Pull request' to the main branch.
 
-4. 
+4. So whenever you commit and push the code to ashish branch. It will automatically creates a pull request to the main branch of the code. But you have to make sure that one branch - one pull request. whatever changes you made will be commited to one branch and it will be considered as one pull request only.
+
+5. 
