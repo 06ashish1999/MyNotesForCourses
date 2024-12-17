@@ -38,7 +38,7 @@ GitHub is an online platform where and which we push our whole git folder to the
 1. Ok then till now we have learn about git like saving the checkpoints (continuous progess) at repository. When I say repository it is something limited to my laptop it self. Suppose if my manager want to check my code then how it is possible. The only way is he must to take my laptop open the code and then check it. But what if I move all my check points to the remote folder which I told earlier and then what if I give access to my code to everyone? anycone can see my code and then can make changes right but how to do that.
 Go to GitHub create a repository where it will show remote repository URL. Copy that URL and type the command here 'git remote add origin https://github.com/06ashish1999/MyNotesForCourses.git'. Now your .git folder will be moved to remote repo.
 
-2. It's not over here we just added the remote repository to local. To push the existing checkpoints to remote repo type 'git push origin master'.
+2. It's not over here we just added the remote repository to local. To push the existing checkpoints to remote repo type 'git push origin master'. To change the origin type 'git remote set-url origin <url>'
 
 3.Now you may wonder what does it meant by 'origin' in command. It' simply a name given to my repository URL. If you have a look at the url 'git remote add origin URL'. origin is the name given to the URL just like the contact names for phone numbers. So we can remember it easily.
 
